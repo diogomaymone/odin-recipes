@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+body {
+    padding: 0;
+    padding-right: 0;
+    padding-bottom: 15%;
+    margin: 0;
+    font-family: 'Niconne', cursive;
+    background: #d52e3f;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+
+h1{
+    font-size: 15vh;
+    text-align: center;
+    line-height: 10px;
+    color: #fcedd8;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #eb452b, 
+                 10px 10px 0px #efa032, 
+                 15px 15px 0px #46b59b, 
+                 20px 20px 0px #017e7f, 
+                 25px 25px 0px #052939, 
+                 30px 30px 0px #c11a2b, 
+                 35px 35px 0px #c11a2b, 
+                 40px 40px 0px #c11a2b, 
+                 45px 45px 0px #c11a2b;
+}
+
+h2{
+    font-size: 6vh;
+    text-align: center;
+    color: #fcedd8;
+    font-family: 'Niconne', cursive;
+    font-weight: 570; 
+}
+
+h3{
+    font-size: 4.5vh;
+    text-align: left;
+    padding-left: 2%;
+    color: #000000;
+    font-family: 'Niconne', cursive;
+    font-weight: 570; 
+    margin-bottom: -5px;
+}
+
+.intro{
+    font-size: 3.5vh;
+    text-align: center;
+    color: #fcedd8;
+    font-family: 'Niconne', cursive;
+    font-weight: 200;  
+    height: 7%;   
+}
+
+.img{
+    height: auto;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    border-radius: 5%;
+}
+
+.ingredients{
+    font-size: 3.5vh;
+    text-align: left;
+}
+
+
+.steps{
+    font-size: 3.5vh;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 3.5vh;
+    padding: 10px 24px;
+    width: fit-content;
+    font-family: 'Niconne', cursive;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #46b59b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #3c685e;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    position: relative;
+  }
+  
+.button:hover {background-color: #4caf98}
+  
+.button:active {
+    background-color: #4c9c8a;
+    box-shadow: 0 5px #3c685e;
+    transform: translateY(4px);
+    left: 48%;
+    transform: translate(-50%, -50%);
+    position: relative;
+  }

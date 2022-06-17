@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="./img/odin-mascot.svg" alt="The Odin Project's Mascot" width="250">
-    <h2>Odin's Favorite Recipes:</h2>
-    <ul>
-        <li><a href="./recipes/meatloaf.html">Meatloaf Recipe</a></li>
-        <li><a href="./recipes/caipirinha.html">Caipirinha Recipe</a></li>
-        <li><a href="./recipes/lemon_meringue_cheesecake.html">Lemon Meringue Cheesecake Recipe</a></li>
-    </ul>
+    <div><h1>Odin Recipes</h1></div>
+    <div id="odin"><img src="./img/odin-mascot.svg" alt="The Odin Project's Mascot"></div>
+    <div><h2>Odin's Favorite Recipes:</h2></div>
+
+    <div id="container1">
+        <img src="./img/meatloaf.jpeg" alt="Meatloaf" class="images">
+        <div class="overlay">
+            <div><form action="./recipes/meatloaf.html"><button class="button">Recipe 1</button></form></div>
+        </div>
+      </div>
+
+      <div id="container2">
+        <img src="./img/caipirinha.jpeg" alt="Meatloaf" class="images">
+        <div class="overlay">
+            <div><form action="./recipes/caipirinha.html"><button class="button">Recipe 2</button></form></div>
+        </div>
+      </div>
+
+      <div id="container3">
+        <img src="./img/lemon.jpeg" alt="Meatloaf" class="images">
+        <div class="overlay">
+          <div><form action="./recipes/lemon_meringue_cheesecake.html"><button class="button">Recipe 3</button></form></div>
+        </div>
+      </div>
 </body>
 </html>
